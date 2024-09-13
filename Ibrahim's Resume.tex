@@ -1,0 +1,351 @@
+\documentclass[letterpaper,11pt]{article}
+
+
+% ------ Packages -------
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=1in]{geometry}
+\usepackage{marvosym}
+\usepackage[empty]{fullpage}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fontawesome5}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+% ----------------------------------------------------------
+
+% ---------- clear all header and footer fields ------------ 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% ----------------------------------------------------------
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% ----------------------------------------------------------
+
+% Sections formatting
+\titleformat{\section}
+{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}
+{}
+{0em}
+{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+\titleformat{\subsection}
+{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}
+{}
+{0}
+{}[\color{black} ]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ----------------------------------------------------------
+\begin{document}
+
+% --------- Name and contact -------------------------------
+\begin{center}
+
+
+  {\Huge \scshape Ibrahim Hendawi} \\ \vspace{1pt}
+  Kafr El Sheikh, Egypt \\ \vspace{1pt}
+  \small
+  {\raisebox{-0.1\height}
+  \faPhone\ 
+  \underline{+20 1033607616}} ~ 
+  \href{mialto:ibrahimhen846@gmail.com}
+  {\raisebox{-0.2\height}
+  \faEnvelope\
+  \underline{ibrahimhen846@gmail.com}} ~
+  \href{https://www.linkedin.com/in/ibrahim-hendawi-7a5655217/}
+  {\raisebox{-0.2\height}
+  \faLinkedin\ 
+  \underline{linkedin.com/in/ibrahim-hendawi}}  ~
+  \href{https://github.com/ihendawi04}
+  {\raisebox{-0.2\height}
+  \faGithub\ 
+  \underline{github.com/ihendawi04}}
+  \vspace{-8pt}
+
+
+\end{center}
+
+% -----------------------------------------------------------
+
+% --------------------- Objectives --------------------------
+\section{Objectives}
+Developer with a huge interest in Data Science, Machine Learning, Big Data Analysis and AI.
+% -----------------------------------------------------------
+
+
+% --------------------- Education --------------------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Artificial Intelligence}{Oct. 2021 -- present}
+      {Kafrelsheikh University}{Kafr El Sheikh, Egypt}
+      
+  \resumeSubHeadingListEnd
+% -----------------------------------------------------------
+
+
+% ----------------------WORK EXPERIENCE -------------------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Site Coordinator (part-time)}{July 2024 - present}
+      {Almentor}{Kafr El Sheikh (on-site)}
+      \resumeItemListStart
+        \resumeItem{
+          Ensure efficient utilization of venue space, equipment, and materials.
+        }
+        \resumeItem{
+          Actively engage with the sessions offline.
+        }
+        \resumeItem{
+          Address challenges and resolve issues during sessions.
+        }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+% -----------------------------------------------------------
+
+
+
+% ------------ PROJECTES ------------------------------------
+\section{Projectes}
+  \vspace{-5pt}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Respiration Rate With Computer Vision} $|$
+      \emph{Python, Computer Vision, Flask, Docker Containers}}
+      {May 2024}
+      \resumeItemListStart
+        \resumeItem{I developed a Python application utilizing OpenCV to accurately detect the chest area and calculate the patient's respiration rate.}
+        \resumeItem{The system leverages image processing techniques to monitor breathing patterns, providing an efficient and non-invasive method for respiratory analysis.}
+        \resumeItem{Deployed in web app and Docker container.}
+        \resumeItem{Run the container on Microsot Azure Container Instances}
+        \resumeItem{\href{https://github.com/ihendawi04/RespirationRate-Container.git}  
+        {\raisebox{-0.2\height}
+        \faGithub\ 
+        \underline{GitHub Repo for code.}}}
+      \resumeItemListEnd
+      \vspace{-13pt}
+
+    \resumeProjectHeading
+      {\textbf{Amazon Reviews Classification} $|$ 
+      \emph{NLP, LSTM, Python}}
+      {December 2023}
+      \resumeItemListStart
+        \resumeItem{Make sentiment analysis on Amazon Reviews Dataset with LSTM.}
+        \resumeItem{\href{https://github.com/ihendawi04/Amazon_reviews_classification.git}  
+        {\raisebox{-0.2\height}
+        \faGithub\ 
+        \underline{GitHub Repo for code.}}
+        }
+      \resumeItemListEnd
+      \vspace{-13pt}
+
+    \resumeProjectHeading
+    {\textbf{Cardiovascular Heart disease detection} $|$ 
+    \emph{EDA, ML, Stacking Learnig, Python}}
+    {December 2024}
+      \resumeItemListStart
+        \resumeItem{Provided valuable insights into the risk factors and predictive measures for heart diseases.}
+        \resumeItem{Make a Machine Learnig model to make Classification (Stacking Learnig)}
+        \resumeItem{\href{https://github.com/ihendawi04/Cardio_Vascular.git}  
+        {\raisebox{-0.2\height}
+        \faGithub\ 
+        \underline{GitHub Repo for code.}}
+        }
+      \resumeItemListEnd
+      \vspace{-13pt}
+
+    \resumeProjectHeading
+    {\textbf{Smart Pharmacy}
+    \emph{C, Arduino, CNC Board, MIT app inventor}}
+    {September 2023}
+      \resumeItemListStart
+        \resumeItem{Make a smart pharmacy with Arduino and CNC Board that can control with mobile Phone}
+        \resumeItem{Make a simple Android App to connect with the pharmacy via Bluetooth and providing a dashboard for users to choose from}
+        \resumeItem{\href{https://github.com/ihendawi04/Smart_Pharmacy.git}  
+        {\raisebox{-0.2\height}
+        \faGithub\ 
+        \underline{GitHub Repo for code.}}
+        }
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+\vspace{-15pt}
+% ------------------------------------------------------------
+
+% -------------- Technical Skills ----------------------------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: Python, SQL, C/C++, {LaTeX}, HTML/CSS} \\
+   \textbf{Concepts}{: OOP, Big Data, DevOps, Machine Learnig, Deep Learnig, Computer Vision, NLP, LLM} \\
+   \textbf{Developer Tools}{: VS Code, Docker, Microsot Azure, Microsot Fabric, Anaconda} \\
+   \textbf{Technologies/Frameworks}{: Linux, Git/GitHub, SK-learn, TensorFlow, NLTK} \\
+  }}
+\end{itemize}
+\vspace{-15pt}
+% ------------------------------------------------------------
+
+% -------------------- Certifications ------------------------
+\section{Certifications}
+\vspace{-3pt}
+\resumeSubHeadingListStart
+    \resumeSubSubheading
+      {\href{https://www.udacity.com/certificate/37XGH3RF}  
+      {\raisebox{-0.2\height}
+      \ 
+      \underline{Data Analysis Challenger Track} } $|$ \emph{Udacity}
+      }{September 2022}
+      {}{}
+      
+      \resumeSubSubheading
+      {\href{https://coursera.org/share/2eb9fb66375376b3c44452a912dca02f}  
+      {\raisebox{-0.2\height}
+      \ 
+      \underline{Supervised Machine Learning: Regression and Classification} } $|$ \emph{Coursera}
+      }{September 2023}
+      {}{}
+      
+      \resumeSubSubheading
+      {\href{https://www.linkedin.com/learning/certificates/196eecc6ca24087866ae3ee0adcdcb352a914821c3e303da4c0210cedeca7130}  
+      {\raisebox{-0.2\height}
+      \ 
+      \underline{Introduction to Career Skills in Data Analytics} } $|$ \emph{Linkedin Learn}
+      }{July 2024}
+      {}{}
+      
+      \resumeSubSubheading
+      {\href{https://www.linkedin.com/learning/certificates/2b3baacae85b7e19a98b11422b0d2d570f2e31089bd058fc973a2476866e5080}  
+      {\raisebox{-0.2\height}
+      \ 
+      \underline{Learning Data Analytics: 1 Foundations} } $|$ \emph{Linkedin Learn}
+      }{August 2024}
+      {}{}
+      
+      \resumeSubSubheading
+      {\href{https://www.kaggle.com/learn/certification/ibrahimhendawi/intro-to-deep-learning}  
+      {\raisebox{-0.2\height}
+      \ 
+      \underline{Intro to Deep Learnig} } $|$ \emph{Kaggle}
+      }{August 2024}
+      {}{}
+      
+      \resumeSubSubheading
+      {\href{https://www.kaggle.com/learn/certification/ibrahimhendawi/computer-vision}  
+      {\raisebox{-0.2\height}
+      \ 
+      \underline{Computer Vision} } $|$ \emph{Kaggle}
+      }{August 2024}
+      {}{}
+      
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+% ------------------------------------------------------------
+
+% ----------------- VALUNTEERING -----------------------------
+\section{Valunteering Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Computer Vision Mentor}{January 2024 - April 2024}
+      {Microsoft Student Ambassador Kafrelsheikh SC, Kafr El-Sheikh}{Kafr El Sheikh (Hybird)}
+      \resumeItemListStart
+        \resumeItem{
+          Holding Computer Vision sessions.
+        }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
+\end{document}
