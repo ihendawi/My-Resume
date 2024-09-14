@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.12)  14 SEP 2024 02:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.12)  14 SEP 2024 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/ibrahim-hendawi/code/CV/Ibrahim's Resume.tex"
-(/home/ibrahim-hendawi/code/CV/Ibrahim's Resume.tex
+**"/home/ibrahim-hendawi/code/My-Resume/Ibrahim's Resume.tex"
+(/home/ibrahim-hendawi/code/My-Resume/Ibrahim's Resume.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -426,22 +426,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 170.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 205--207
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 206--208
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 221--223
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 222--224
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 235--237
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 236--238
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 250--252
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 251--253
 []  
  []
 
@@ -466,14 +466,14 @@ Package rerunfilecheck Info: File `"Ibrahim's Resume".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  14420 strings out of 474222
- 246762 string characters out of 5748733
+ 246783 string characters out of 5748733
  1962975 words of memory out of 5000000
  36511 multiletter control sequences out of 15000+600000
  564562 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,341b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,348b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Ibrahim's Resume.pdf" (1 page, 126471 bytes).
+Output written on "Ibrahim's Resume.pdf" (1 page, 126806 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
